@@ -24,9 +24,8 @@
 #import <Foundation/Foundation.h>
 #import <Foundation/NSDictionary.h>
 #import <UIKit/UIKit.h>
-#import <UIKit/UIApplication.h>
-#import <UIKit/UIPreferencesTable.h>
-#import <UIKit/UIPreferencesTextTableCell.h>
+//#import <UIKit/UIApplication.h>
+//#import <UIKit/UISectionList.h>
 
 #import "libmpd/libmpd.h"
 
@@ -35,29 +34,28 @@
 //////////////////////////////////////////////////////////////////////////
 
 @class MPDClientApplication;
-@class UISliderControl;
 
 //////////////////////////////////////////////////////////////////////////
-// PreferencesView: class definition.
+// ArtistsView: class definition.
 //////////////////////////////////////////////////////////////////////////
 
-@class ControlApplication;
-
-@interface PreferencesView : UIView
+@interface ArtistsView : UIView
 {
 	UINavigationBar* _navBar;
-	MPDClientApplication* _app;
-	
-	UIPreferencesTable* _table;
-	UIPreferencesTextTableCell* _hostnameCell;
-	UIPreferencesTextTableCell* _portCell;
-	UIPreferencesTableCell* _volumeCell;
-	UISliderControl* _volumeSlider;
+	UISectionList* _sectionList;
+	UINavigationItem* _title;
 
 	MpdObj* _mpdServer;
+	MPDClientApplication* _app;
+	
+	NSMutableArray* _artists;
+	NSMutableArray* _tableHeaders;
+	UITable* _table;
 }
 - (void)dealloc;
 - (id)initWithFrame:(struct CGRect)frame;
 - (void)initialize:(MPDClientApplication *)app mpd:(MpdObj *)mpdServer;
-- (void)saveSettings;
+
+- (void)showArtists;
+- (void)updateTitle;
 @end

@@ -3,204 +3,720 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B0F51DAD1C2CB2C30003697F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DAC1C2CB2C30003697F /* main.m */; };
+		B0F51DB61C2CB2C30003697F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F51DB41C2CB2C30003697F /* Main.storyboard */; };
+		B0F51DB81C2CB2C30003697F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F51DB71C2CB2C30003697F /* Assets.xcassets */; };
+		B0F51DBB1C2CB2C30003697F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F51DB91C2CB2C30003697F /* LaunchScreen.storyboard */; };
+		B0F51DC61C2CB2C30003697F /* impdclientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DC51C2CB2C30003697F /* impdclientTests.m */; };
+		B0F51DD11C2CB2C30003697F /* impdclientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DD01C2CB2C30003697F /* impdclientUITests.m */; };
+		B0F51DEC1C2CB4080003697F /* AlbumsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DDF1C2CB4080003697F /* AlbumsView.m */; };
+		B0F51DED1C2CB4080003697F /* ArtistsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DE11C2CB4080003697F /* ArtistsView.m */; };
+		B0F51DEE1C2CB4080003697F /* impdclientApp.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DE31C2CB4080003697F /* impdclientApp.m */; };
+		B0F51DEF1C2CB4080003697F /* PlaylistView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DE51C2CB4080003697F /* PlaylistView.m */; };
+		B0F51DF01C2CB4080003697F /* PreferencesView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DE71C2CB4080003697F /* PreferencesView.m */; };
+		B0F51DF11C2CB4080003697F /* SearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DE91C2CB4080003697F /* SearchView.m */; };
+		B0F51DF21C2CB4080003697F /* SongsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DEB1C2CB4080003697F /* SongsView.m */; };
+		B0F51E0F1C2CB4210003697F /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = B0F51E061C2CB4210003697F /* Makefile */; };
+		B0F51E171C2CB4350003697F /* libmpd.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B0F51E161C2CB4350003697F /* libmpd.h */; };
+		B0F51E191C2CB4350003697F /* libmpd.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F51E181C2CB4350003697F /* libmpd.m */; };
+		B0F51E1D1C2CB44F0003697F /* debug_printf.c in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DF41C2CB4210003697F /* debug_printf.c */; };
+		B0F51E1E1C2CB44F0003697F /* libmpd-database.c in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DF61C2CB4210003697F /* libmpd-database.c */; };
+		B0F51E1F1C2CB44F0003697F /* libmpd-player.c in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DF91C2CB4210003697F /* libmpd-player.c */; };
+		B0F51E201C2CB44F0003697F /* libmpd-playlist.c in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DFB1C2CB4210003697F /* libmpd-playlist.c */; };
+		B0F51E211C2CB44F0003697F /* libmpd-status.c in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DFD1C2CB4210003697F /* libmpd-status.c */; };
+		B0F51E221C2CB44F0003697F /* libmpd-strfsong.c in Sources */ = {isa = PBXBuildFile; fileRef = B0F51DFF1C2CB4210003697F /* libmpd-strfsong.c */; };
+		B0F51E231C2CB44F0003697F /* libmpd.c in Sources */ = {isa = PBXBuildFile; fileRef = B0F51E021C2CB4210003697F /* libmpd.c */; };
+		B0F51E241C2CB44F0003697F /* libmpdclient.c in Sources */ = {isa = PBXBuildFile; fileRef = B0F51E041C2CB4210003697F /* libmpdclient.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0F51DC21C2CB2C30003697F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0F51DA01C2CB2C30003697F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0F51DA71C2CB2C30003697F;
+			remoteInfo = impdclient;
+		};
+		B0F51DCD1C2CB2C30003697F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0F51DA01C2CB2C30003697F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0F51DA71C2CB2C30003697F;
+			remoteInfo = impdclient;
+		};
+		B0F51E251C2CB5550003697F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0F51DA01C2CB2C30003697F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0F51E131C2CB4350003697F;
+			remoteInfo = libmpd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0F51E121C2CB4350003697F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B0F51E171C2CB4350003697F /* libmpd.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		A16575E20DE21C1C00CEC991 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		A16575E50DE21C3300CEC991 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		A16576C20DE372DA00CEC991 /* AlbumsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumsView.h; sourceTree = "<group>"; };
-		A16576C30DE372DA00CEC991 /* AlbumsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumsView.m; sourceTree = "<group>"; };
-		A16576C40DE372DA00CEC991 /* ArtistsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistsView.h; sourceTree = "<group>"; };
-		A16576C50DE372DA00CEC991 /* ArtistsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistsView.m; sourceTree = "<group>"; };
-		A16576C60DE372ED00CEC991 /* PlaylistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistView.h; sourceTree = "<group>"; };
-		A16576C70DE372ED00CEC991 /* PlaylistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistView.m; sourceTree = "<group>"; };
-		A16576C80DE372ED00CEC991 /* PreferencesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesView.h; sourceTree = "<group>"; };
-		A16576C90DE372ED00CEC991 /* PreferencesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesView.m; sourceTree = "<group>"; };
-		A16576CA0DE372FB00CEC991 /* SearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchView.h; sourceTree = "<group>"; };
-		A16576CB0DE372FB00CEC991 /* SearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchView.m; sourceTree = "<group>"; };
-		A16576CC0DE372FB00CEC991 /* SongsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongsView.h; sourceTree = "<group>"; };
-		A16576CD0DE372FB00CEC991 /* SongsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongsView.m; sourceTree = "<group>"; };
-		D90F56B90C6719EF007AE76B /* impdclientApp.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = impdclientApp.m; sourceTree = "<group>"; };
-		D90F56BA0C6719EF007AE76B /* impdclientApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = impdclientApp.h; sourceTree = "<group>"; };
-		D90F56E20C671CD1007AE76B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Developer/SDKs/iPhone.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		D90F56E30C671CD1007AE76B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = /Developer/SDKs/iPhone.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = "<absolute>"; };
-		D92591D70C6B431100BBDBBC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		D9C1849B0C6B467300A7383F /* impdclient_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = impdclient_Prefix.pch; sourceTree = "<group>"; };
+		B0F51DA81C2CB2C30003697F /* impdclient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = impdclient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F51DAC1C2CB2C30003697F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0F51DB51C2CB2C30003697F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0F51DB71C2CB2C30003697F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0F51DBA1C2CB2C30003697F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0F51DBC1C2CB2C30003697F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F51DC11C2CB2C30003697F /* impdclientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = impdclientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F51DC51C2CB2C30003697F /* impdclientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = impdclientTests.m; sourceTree = "<group>"; };
+		B0F51DC71C2CB2C30003697F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F51DCC1C2CB2C30003697F /* impdclientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = impdclientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F51DD01C2CB2C30003697F /* impdclientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = impdclientUITests.m; sourceTree = "<group>"; };
+		B0F51DD21C2CB2C30003697F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F51DDE1C2CB4080003697F /* AlbumsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumsView.h; sourceTree = "<group>"; };
+		B0F51DDF1C2CB4080003697F /* AlbumsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumsView.m; sourceTree = "<group>"; };
+		B0F51DE01C2CB4080003697F /* ArtistsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistsView.h; sourceTree = "<group>"; };
+		B0F51DE11C2CB4080003697F /* ArtistsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistsView.m; sourceTree = "<group>"; };
+		B0F51DE21C2CB4080003697F /* impdclientApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impdclientApp.h; sourceTree = "<group>"; };
+		B0F51DE31C2CB4080003697F /* impdclientApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = impdclientApp.m; sourceTree = "<group>"; };
+		B0F51DE41C2CB4080003697F /* PlaylistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistView.h; sourceTree = "<group>"; };
+		B0F51DE51C2CB4080003697F /* PlaylistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistView.m; sourceTree = "<group>"; };
+		B0F51DE61C2CB4080003697F /* PreferencesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesView.h; sourceTree = "<group>"; };
+		B0F51DE71C2CB4080003697F /* PreferencesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesView.m; sourceTree = "<group>"; };
+		B0F51DE81C2CB4080003697F /* SearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchView.h; sourceTree = "<group>"; };
+		B0F51DE91C2CB4080003697F /* SearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchView.m; sourceTree = "<group>"; };
+		B0F51DEA1C2CB4080003697F /* SongsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongsView.h; sourceTree = "<group>"; };
+		B0F51DEB1C2CB4080003697F /* SongsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongsView.m; sourceTree = "<group>"; };
+		B0F51DF41C2CB4210003697F /* debug_printf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug_printf.c; sourceTree = "<group>"; };
+		B0F51DF51C2CB4210003697F /* debug_printf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug_printf.h; sourceTree = "<group>"; };
+		B0F51DF61C2CB4210003697F /* libmpd-database.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = "libmpd-database.c"; sourceTree = "<group>"; };
+		B0F51DF71C2CB4210003697F /* libmpd-database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libmpd-database.h"; sourceTree = "<group>"; };
+		B0F51DF81C2CB4210003697F /* libmpd-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libmpd-internal.h"; sourceTree = "<group>"; };
+		B0F51DF91C2CB4210003697F /* libmpd-player.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = "libmpd-player.c"; sourceTree = "<group>"; };
+		B0F51DFA1C2CB4210003697F /* libmpd-player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libmpd-player.h"; sourceTree = "<group>"; };
+		B0F51DFB1C2CB4210003697F /* libmpd-playlist.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = "libmpd-playlist.c"; sourceTree = "<group>"; };
+		B0F51DFC1C2CB4210003697F /* libmpd-playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libmpd-playlist.h"; sourceTree = "<group>"; };
+		B0F51DFD1C2CB4210003697F /* libmpd-status.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = "libmpd-status.c"; sourceTree = "<group>"; };
+		B0F51DFE1C2CB4210003697F /* libmpd-status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libmpd-status.h"; sourceTree = "<group>"; };
+		B0F51DFF1C2CB4210003697F /* libmpd-strfsong.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = "libmpd-strfsong.c"; sourceTree = "<group>"; };
+		B0F51E001C2CB4210003697F /* libmpd-strfsong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libmpd-strfsong.h"; sourceTree = "<group>"; };
+		B0F51E011C2CB4210003697F /* libmpd-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libmpd-version.h"; sourceTree = "<group>"; };
+		B0F51E021C2CB4210003697F /* libmpd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = libmpd.c; sourceTree = "<group>"; };
+		B0F51E031C2CB4210003697F /* libmpd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmpd.h; sourceTree = "<group>"; };
+		B0F51E041C2CB4210003697F /* libmpdclient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmpdclient.c; sourceTree = "<group>"; };
+		B0F51E051C2CB4210003697F /* libmpdclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmpdclient.h; sourceTree = "<group>"; };
+		B0F51E061C2CB4210003697F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		B0F51E141C2CB4350003697F /* liblibmpd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibmpd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F51E161C2CB4350003697F /* libmpd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libmpd.h; sourceTree = "<group>"; };
+		B0F51E181C2CB4350003697F /* libmpd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libmpd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		B0F51DA51C2CB2C30003697F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F51DBE1C2CB2C30003697F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F51DC91C2CB2C30003697F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F51E111C2CB4350003697F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* Classes */ = {
+		B0F51D9F1C2CB2C30003697F = {
 			isa = PBXGroup;
 			children = (
-				A16576C20DE372DA00CEC991 /* AlbumsView.h */,
-				A16576C30DE372DA00CEC991 /* AlbumsView.m */,
-				A16576C40DE372DA00CEC991 /* ArtistsView.h */,
-				A16576C50DE372DA00CEC991 /* ArtistsView.m */,
-				A16576C60DE372ED00CEC991 /* PlaylistView.h */,
-				A16576C70DE372ED00CEC991 /* PlaylistView.m */,
-				A16576C80DE372ED00CEC991 /* PreferencesView.h */,
-				A16576C90DE372ED00CEC991 /* PreferencesView.m */,
-				A16576CA0DE372FB00CEC991 /* SearchView.h */,
-				A16576CB0DE372FB00CEC991 /* SearchView.m */,
-				A16576CC0DE372FB00CEC991 /* SongsView.h */,
-				A16576CD0DE372FB00CEC991 /* SongsView.m */,
-				D90F56B90C6719EF007AE76B /* impdclientApp.m */,
-				D90F56BA0C6719EF007AE76B /* impdclientApp.h */,
+				B0F51DF31C2CB4210003697F /* libmpd */,
+				B0F51DAA1C2CB2C30003697F /* impdclient */,
+				B0F51DC41C2CB2C30003697F /* impdclientTests */,
+				B0F51DCF1C2CB2C30003697F /* impdclientUITests */,
+				B0F51E151C2CB4350003697F /* libmpd */,
+				B0F51DA91C2CB2C30003697F /* Products */,
 			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* impdclient */ = {
+		B0F51DA91C2CB2C30003697F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D92591D70C6B431100BBDBBC /* Makefile */,
-				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				29B97317FDCFA39411CA2CEA /* Resources */,
-				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				B0F51DA81C2CB2C30003697F /* impdclient.app */,
+				B0F51DC11C2CB2C30003697F /* impdclientTests.xctest */,
+				B0F51DCC1C2CB2C30003697F /* impdclientUITests.xctest */,
+				B0F51E141C2CB4350003697F /* liblibmpd.a */,
 			);
-			name = impdclient;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+		B0F51DAA1C2CB2C30003697F /* impdclient */ = {
 			isa = PBXGroup;
 			children = (
-				D9C1849B0C6B467300A7383F /* impdclient_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
+				B0F51DDE1C2CB4080003697F /* AlbumsView.h */,
+				B0F51DDF1C2CB4080003697F /* AlbumsView.m */,
+				B0F51DE01C2CB4080003697F /* ArtistsView.h */,
+				B0F51DE11C2CB4080003697F /* ArtistsView.m */,
+				B0F51DE21C2CB4080003697F /* impdclientApp.h */,
+				B0F51DE31C2CB4080003697F /* impdclientApp.m */,
+				B0F51DE41C2CB4080003697F /* PlaylistView.h */,
+				B0F51DE51C2CB4080003697F /* PlaylistView.m */,
+				B0F51DE61C2CB4080003697F /* PreferencesView.h */,
+				B0F51DE71C2CB4080003697F /* PreferencesView.m */,
+				B0F51DE81C2CB4080003697F /* SearchView.h */,
+				B0F51DE91C2CB4080003697F /* SearchView.m */,
+				B0F51DEA1C2CB4080003697F /* SongsView.h */,
+				B0F51DEB1C2CB4080003697F /* SongsView.m */,
+				B0F51DB41C2CB2C30003697F /* Main.storyboard */,
+				B0F51DB71C2CB2C30003697F /* Assets.xcassets */,
+				B0F51DB91C2CB2C30003697F /* LaunchScreen.storyboard */,
+				B0F51DBC1C2CB2C30003697F /* Info.plist */,
+				B0F51DAB1C2CB2C30003697F /* Supporting Files */,
 			);
-			name = "Other Sources";
+			path = impdclient;
 			sourceTree = "<group>";
 		};
-		29B97317FDCFA39411CA2CEA /* Resources */ = {
+		B0F51DAB1C2CB2C30003697F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A16575E50DE21C3300CEC991 /* Default.png */,
-				A16575E20DE21C1C00CEC991 /* icon.png */,
-				8D1107310486CEB800E47090 /* Info.plist */,
+				B0F51DAC1C2CB2C30003697F /* main.m */,
 			);
-			name = Resources;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+		B0F51DC41C2CB2C30003697F /* impdclientTests */ = {
 			isa = PBXGroup;
 			children = (
-				D90F56E20C671CD1007AE76B /* Foundation.framework */,
-				D90F56E30C671CD1007AE76B /* UIKit.framework */,
+				B0F51DC51C2CB2C30003697F /* impdclientTests.m */,
+				B0F51DC71C2CB2C30003697F /* Info.plist */,
 			);
-			name = Frameworks;
+			path = impdclientTests;
+			sourceTree = "<group>";
+		};
+		B0F51DCF1C2CB2C30003697F /* impdclientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0F51DD01C2CB2C30003697F /* impdclientUITests.m */,
+				B0F51DD21C2CB2C30003697F /* Info.plist */,
+			);
+			path = impdclientUITests;
+			sourceTree = "<group>";
+		};
+		B0F51DF31C2CB4210003697F /* libmpd */ = {
+			isa = PBXGroup;
+			children = (
+				B0F51DF41C2CB4210003697F /* debug_printf.c */,
+				B0F51DF51C2CB4210003697F /* debug_printf.h */,
+				B0F51DF61C2CB4210003697F /* libmpd-database.c */,
+				B0F51DF71C2CB4210003697F /* libmpd-database.h */,
+				B0F51DF81C2CB4210003697F /* libmpd-internal.h */,
+				B0F51DF91C2CB4210003697F /* libmpd-player.c */,
+				B0F51DFA1C2CB4210003697F /* libmpd-player.h */,
+				B0F51DFB1C2CB4210003697F /* libmpd-playlist.c */,
+				B0F51DFC1C2CB4210003697F /* libmpd-playlist.h */,
+				B0F51DFD1C2CB4210003697F /* libmpd-status.c */,
+				B0F51DFE1C2CB4210003697F /* libmpd-status.h */,
+				B0F51DFF1C2CB4210003697F /* libmpd-strfsong.c */,
+				B0F51E001C2CB4210003697F /* libmpd-strfsong.h */,
+				B0F51E011C2CB4210003697F /* libmpd-version.h */,
+				B0F51E021C2CB4210003697F /* libmpd.c */,
+				B0F51E031C2CB4210003697F /* libmpd.h */,
+				B0F51E041C2CB4210003697F /* libmpdclient.c */,
+				B0F51E051C2CB4210003697F /* libmpdclient.h */,
+				B0F51E061C2CB4210003697F /* Makefile */,
+			);
+			path = libmpd;
+			sourceTree = "<group>";
+		};
+		B0F51E151C2CB4350003697F /* libmpd */ = {
+			isa = PBXGroup;
+			children = (
+				B0F51E161C2CB4350003697F /* libmpd.h */,
+				B0F51E181C2CB4350003697F /* libmpd.m */,
+			);
+			path = libmpd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXLegacyTarget section */
-		D92591D10C6B42C700BBDBBC /* impdclient */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = D92591D40C6B42CE00BBDBBC /* Build configuration list for PBXLegacyTarget "impdclient" */;
+/* Begin PBXNativeTarget section */
+		B0F51DA71C2CB2C30003697F /* impdclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F51DD51C2CB2C30003697F /* Build configuration list for PBXNativeTarget "impdclient" */;
 			buildPhases = (
+				B0F51DA41C2CB2C30003697F /* Sources */,
+				B0F51DA51C2CB2C30003697F /* Frameworks */,
+				B0F51DA61C2CB2C30003697F /* Resources */,
 			);
-			buildToolPath = /usr/bin/make;
+			buildRules = (
+			);
 			dependencies = (
+				B0F51E261C2CB5550003697F /* PBXTargetDependency */,
 			);
 			name = impdclient;
-			passBuildSettingsInEnvironment = 1;
 			productName = impdclient;
+			productReference = B0F51DA81C2CB2C30003697F /* impdclient.app */;
+			productType = "com.apple.product-type.application";
 		};
-/* End PBXLegacyTarget section */
+		B0F51DC01C2CB2C30003697F /* impdclientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F51DD81C2CB2C30003697F /* Build configuration list for PBXNativeTarget "impdclientTests" */;
+			buildPhases = (
+				B0F51DBD1C2CB2C30003697F /* Sources */,
+				B0F51DBE1C2CB2C30003697F /* Frameworks */,
+				B0F51DBF1C2CB2C30003697F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0F51DC31C2CB2C30003697F /* PBXTargetDependency */,
+			);
+			name = impdclientTests;
+			productName = impdclientTests;
+			productReference = B0F51DC11C2CB2C30003697F /* impdclientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0F51DCB1C2CB2C30003697F /* impdclientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F51DDB1C2CB2C30003697F /* Build configuration list for PBXNativeTarget "impdclientUITests" */;
+			buildPhases = (
+				B0F51DC81C2CB2C30003697F /* Sources */,
+				B0F51DC91C2CB2C30003697F /* Frameworks */,
+				B0F51DCA1C2CB2C30003697F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0F51DCE1C2CB2C30003697F /* PBXTargetDependency */,
+			);
+			name = impdclientUITests;
+			productName = impdclientUITests;
+			productReference = B0F51DCC1C2CB2C30003697F /* impdclientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B0F51E131C2CB4350003697F /* libmpd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F51E1A1C2CB4350003697F /* Build configuration list for PBXNativeTarget "libmpd" */;
+			buildPhases = (
+				B0F51E101C2CB4350003697F /* Sources */,
+				B0F51E111C2CB4350003697F /* Frameworks */,
+				B0F51E121C2CB4350003697F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libmpd;
+			productName = libmpd;
+			productReference = B0F51E141C2CB4350003697F /* liblibmpd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		29B97313FDCFA39411CA2CEA /* Project object */ = {
+		B0F51DA01C2CB2C30003697F /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "impdclient" */;
-			compatibilityVersion = "Xcode 2.4";
-			hasScannedForEncodings = 1;
-			mainGroup = 29B97314FDCFA39411CA2CEA /* impdclient */;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Greenius Limited";
+				TargetAttributes = {
+					B0F51DA71C2CB2C30003697F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B0F51DC01C2CB2C30003697F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B0F51DA71C2CB2C30003697F;
+					};
+					B0F51DCB1C2CB2C30003697F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B0F51DA71C2CB2C30003697F;
+					};
+					B0F51E131C2CB4350003697F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B0F51DA31C2CB2C30003697F /* Build configuration list for PBXProject "impdclient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0F51D9F1C2CB2C30003697F;
+			productRefGroup = B0F51DA91C2CB2C30003697F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D92591D10C6B42C700BBDBBC /* impdclient */,
+				B0F51DA71C2CB2C30003697F /* impdclient */,
+				B0F51DC01C2CB2C30003697F /* impdclientTests */,
+				B0F51DCB1C2CB2C30003697F /* impdclientUITests */,
+				B0F51E131C2CB4350003697F /* libmpd */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		B0F51DA61C2CB2C30003697F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F51DBB1C2CB2C30003697F /* LaunchScreen.storyboard in Resources */,
+				B0F51DB81C2CB2C30003697F /* Assets.xcassets in Resources */,
+				B0F51DB61C2CB2C30003697F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F51DBF1C2CB2C30003697F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F51DCA1C2CB2C30003697F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0F51DA41C2CB2C30003697F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F51DF11C2CB4080003697F /* SearchView.m in Sources */,
+				B0F51DF01C2CB4080003697F /* PreferencesView.m in Sources */,
+				B0F51E0F1C2CB4210003697F /* Makefile in Sources */,
+				B0F51DED1C2CB4080003697F /* ArtistsView.m in Sources */,
+				B0F51DEC1C2CB4080003697F /* AlbumsView.m in Sources */,
+				B0F51DEE1C2CB4080003697F /* impdclientApp.m in Sources */,
+				B0F51DF21C2CB4080003697F /* SongsView.m in Sources */,
+				B0F51DEF1C2CB4080003697F /* PlaylistView.m in Sources */,
+				B0F51DAD1C2CB2C30003697F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F51DBD1C2CB2C30003697F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F51DC61C2CB2C30003697F /* impdclientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F51DC81C2CB2C30003697F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F51DD11C2CB2C30003697F /* impdclientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F51E101C2CB4350003697F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F51E1E1C2CB44F0003697F /* libmpd-database.c in Sources */,
+				B0F51E231C2CB44F0003697F /* libmpd.c in Sources */,
+				B0F51E201C2CB44F0003697F /* libmpd-playlist.c in Sources */,
+				B0F51E221C2CB44F0003697F /* libmpd-strfsong.c in Sources */,
+				B0F51E241C2CB44F0003697F /* libmpdclient.c in Sources */,
+				B0F51E1D1C2CB44F0003697F /* debug_printf.c in Sources */,
+				B0F51E211C2CB44F0003697F /* libmpd-status.c in Sources */,
+				B0F51E1F1C2CB44F0003697F /* libmpd-player.c in Sources */,
+				B0F51E191C2CB4350003697F /* libmpd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0F51DC31C2CB2C30003697F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0F51DA71C2CB2C30003697F /* impdclient */;
+			targetProxy = B0F51DC21C2CB2C30003697F /* PBXContainerItemProxy */;
+		};
+		B0F51DCE1C2CB2C30003697F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0F51DA71C2CB2C30003697F /* impdclient */;
+			targetProxy = B0F51DCD1C2CB2C30003697F /* PBXContainerItemProxy */;
+		};
+		B0F51E261C2CB5550003697F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0F51E131C2CB4350003697F /* libmpd */;
+			targetProxy = B0F51E251C2CB5550003697F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0F51DB41C2CB2C30003697F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0F51DB51C2CB2C30003697F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0F51DB91C2CB2C30003697F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0F51DBA1C2CB2C30003697F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		C01FCF4F08A954540054247B /* Debug */ = {
+		B0F51DD31C2CB2C30003697F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = arm;
-				CC = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
-				CXX = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LD = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/iPhone.sdk;
-				SHARED_PRECOMPS_DIR = "/Library/Caches/com.apple.Xcode.iPhone.$(UID)/SharedPrecompiledHeaders";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C01FCF5008A954540054247B /* Release */ = {
+		B0F51DD41C2CB2C30003697F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = arm;
-				CC = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
-				CXX = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LD = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/iPhone.sdk;
-				SHARED_PRECOMPS_DIR = "/Library/Caches/com.apple.Xcode.iPhone.$(UID)/SharedPrecompiledHeaders";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D92591D50C6B42CE00BBDBBC /* Debug */ = {
+		B0F51DD61C2CB2C30003697F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = impdclient;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = impdclient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.greenius.impdclient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		D92591D60C6B42CE00BBDBBC /* Release */ = {
+		B0F51DD71C2CB2C30003697F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				PRODUCT_NAME = impdclient;
-				ZERO_LINK = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = impdclient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.greenius.impdclient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0F51DD91C2CB2C30003697F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = impdclientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.greenius.impdclientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/impdclient.app/impdclient";
+			};
+			name = Debug;
+		};
+		B0F51DDA1C2CB2C30003697F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = impdclientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.greenius.impdclientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/impdclient.app/impdclient";
+			};
+			name = Release;
+		};
+		B0F51DDC1C2CB2C30003697F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = impdclientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.greenius.impdclientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = impdclient;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B0F51DDD1C2CB2C30003697F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = impdclientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.greenius.impdclientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = impdclient;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		B0F51E1B1C2CB4350003697F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B0F51E1C1C2CB4350003697F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "impdclient" */ = {
+		B0F51DA31C2CB2C30003697F /* Build configuration list for PBXProject "impdclient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C01FCF4F08A954540054247B /* Debug */,
-				C01FCF5008A954540054247B /* Release */,
+				B0F51DD31C2CB2C30003697F /* Debug */,
+				B0F51DD41C2CB2C30003697F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D92591D40C6B42CE00BBDBBC /* Build configuration list for PBXLegacyTarget "impdclient" */ = {
+		B0F51DD51C2CB2C30003697F /* Build configuration list for PBXNativeTarget "impdclient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D92591D50C6B42CE00BBDBBC /* Debug */,
-				D92591D60C6B42CE00BBDBBC /* Release */,
+				B0F51DD61C2CB2C30003697F /* Debug */,
+				B0F51DD71C2CB2C30003697F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B0F51DD81C2CB2C30003697F /* Build configuration list for PBXNativeTarget "impdclientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F51DD91C2CB2C30003697F /* Debug */,
+				B0F51DDA1C2CB2C30003697F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F51DDB1C2CB2C30003697F /* Build configuration list for PBXNativeTarget "impdclientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F51DDC1C2CB2C30003697F /* Debug */,
+				B0F51DDD1C2CB2C30003697F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F51E1A1C2CB4350003697F /* Build configuration list for PBXNativeTarget "libmpd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F51E1B1C2CB4350003697F /* Debug */,
+				B0F51E1C1C2CB4350003697F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+	rootObject = B0F51DA01C2CB2C30003697F /* Project object */;
 }

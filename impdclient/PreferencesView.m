@@ -23,8 +23,8 @@
  
 #import <CoreFoundation/CoreFoundation.h>
 #import <Foundation/Foundation.h>
-#import <UIKit/CDStructures.h>
-#import <UIKit/UISliderControl.h>
+//#import <UIKit/CDStructures.h>
+//#import <UIKit/UISliderControl.h>
 
 #import "PreferencesView.h"
 #import "impdclientApp.h"

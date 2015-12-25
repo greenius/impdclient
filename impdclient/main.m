@@ -22,12 +22,10 @@
  *******************************************************************************/
  
 #import <UIKit/UIKit.h>
-
 #import "impdclientApp.h"
 
-int main(int argc, char **argv)
-{
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    return UIApplicationMain(argc, argv, [MPDClientApplication class]);
-	[pool release];
+int main(int argc, char * argv[]) {
+  @autoreleasepool {
+    return UIApplicationMain(argc, argv, nil, NSStringFromClass(MPDClientApplication.class));
+  }
 }

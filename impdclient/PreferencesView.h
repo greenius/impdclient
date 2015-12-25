@@ -21,9 +21,12 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.      *
  *******************************************************************************/
 
+#import <Foundation/Foundation.h>
+#import <Foundation/NSDictionary.h>
 #import <UIKit/UIKit.h>
-#import <UIKit/UIApplication.h>
-#import <UIKit/UIProgressHUD.h>
+//#import <UIKit/UIApplication.h>
+//#import <UIKit/UIPreferencesTable.h>
+//#import <UIKit/UIPreferencesTextTableCell.h>
 
 #import "libmpd/libmpd.h"
 
@@ -31,79 +34,30 @@
 // Forward declarations.
 //////////////////////////////////////////////////////////////////////////
 
-@class PlaylistView;
-@class ArtistsView;
-@class AlbumsView;
-@class SongsView;
-@class SearchView;
-@class PreferencesView;
-
-#define TITLEHEIGHT		19
-#define NAVBARHEIGHT	48
-#define BUTTONBARHEIGHT	50
-#define MAXHEIGHT		480 - TITLEHEIGHT - NAVBARHEIGHT - BUTTONBARHEIGHT	// Screenheight - title - navbar - buttonbar.
+@class MPDClientApplication;
+@class UISliderControl;
 
 //////////////////////////////////////////////////////////////////////////
-// MPDClientApplication: class definition.
+// PreferencesView: class definition.
 //////////////////////////////////////////////////////////////////////////
 
-@interface MPDClientApplication :  UIApplication
+@class ControlApplication;
+
+@interface PreferencesView : UIView
 {
-@public
-	UIView* _mainView;
-
-@protected
-	UIWindow* _window;
-	UITransitionView* _transitionView;
-	UIProgressHUD* _hud;
+	UINavigationBar* _navBar;
+	MPDClientApplication* _app;
 	
-	PlaylistView* _playlistView;
-	ArtistsView* _artistsView;
-	AlbumsView* _albumsView;
-	SongsView* _songsView;
-	SearchView* _searchView;
-	PreferencesView* _preferencesView;
-
-	UIButtonBar* _buttonBar;
-	BOOL _showPlaylist;
-	BOOL _showPreferences;
-	BOOL _isConnected;
-	int _reconnectCount;
+	UIPreferencesTable* _table;
+	UIPreferencesTextTableCell* _hostnameCell;
+	UIPreferencesTextTableCell* _portCell;
+	UIPreferencesTableCell* _volumeCell;
+	UISliderControl* _volumeSlider;
 
 	MpdObj* _mpdServer;
-	NSTimer* _timer;
 }
 - (void)dealloc;
-- (void)cleanUp;
-
-- (void)openConnection;
-- (void)updateTitle;
-- (void)showPlaylist;
-- (NSArray *)buttonBarItems;
-- (void)updateButtonBar;
-- (id)timertick: (NSTimer *)timer;
-- (void)waitingForServer:(BOOL)isWaiting;
-
-- (void)showPlaylistViewWithTransition:(int)trans;
-- (void)showArtistsViewWithTransition:(int)trans;
-- (void)showAlbumsViewWithTransition:(int)trans artist:(NSString *)name;
-- (void)showSongsViewWithTransition:(int)trans album:(NSString *)albumname artist:(NSString *)name;
-- (void)showSearchViewWithTransition:(int)trans;
-- (void)showPreferencesViewWithTransition:(int)trans;
+- (id)initWithFrame:(struct CGRect)frame;
+- (void)initialize:(MPDClientApplication *)app mpd:(MpdObj *)mpdServer;
+- (void)saveSettings;
 @end
-
-//////////////////////////////////////////////////////////////////////////
-// MPDClientApplication: externals.
-//////////////////////////////////////////////////////////////////////////
-
-extern NSString *kUIButtonBarButtonAction;
-extern NSString *kUIButtonBarButtonInfo;
-extern NSString *kUIButtonBarButtonInfoOffset;
-extern NSString *kUIButtonBarButtonSelectedInfo;
-extern NSString *kUIButtonBarButtonStyle;
-extern NSString *kUIButtonBarButtonTag;
-extern NSString *kUIButtonBarButtonTarget;
-extern NSString *kUIButtonBarButtonTitle;
-extern NSString *kUIButtonBarButtonTitleVerticalHeight;
-extern NSString *kUIButtonBarButtonTitleWidth;
-extern NSString *kUIButtonBarButtonType;
